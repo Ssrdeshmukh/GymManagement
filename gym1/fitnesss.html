@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fitness.css">
+</head>
+
+<body>
+    <br>
+    <div class="nav">
+        <img src="images/logo1.jpg" alt="">
+        <a href="gym1.html">J S Fitness</a>
+        <a href="index.html">Home</a>
+        <a href="fitnesss.html" class="active">Fitness Calculator</a>
+        <a href="about.html">About Us</a>
+        <a href="apply.html">Apply Now</a>
+    </div><br>
+    <div class="main2">
+        <h2>Fitness Calculator</h2>
+        <div class="main">
+            <label for="age"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Age: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+            <input type="number" id="age">
+        </div>
+        <div class="main">
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight">
+        </div>
+        <div class="main">
+            <label for="height">Height (cm):</label>
+            <input type="number" id="height">
+        </div>
+        <div class="main">
+            <label>Gender:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" id="male" name="gender" value="male" checked> Male
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" id="female" name="gender" value="female"> Female
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+        <div class="main">
+            <label for="activity" id="activity1">Activity Level:</label>
+            <select id="activity2">
+                <option value="sedentary">Sedentary (little or no exercise)</option>
+                <option value="light">Lightly active (light exercise/sports 1-3 days/week)</option>
+                <option value="moderate">Moderately active (moderate exercise/sports 3-5 days/week)</option>
+                <option value="active">Very active (hard exercise/sports 6-7 days a week)</option>
+                <option value="veryActive">Extra active (very hard exercise/sports & physical job or 2x training)
+                </option>
+            </select>
+        </div>
+        <button onclick="calculateFitness()" class="main">Calculate</button>
+
+        <h3>Results</h3>
+        <div id="results" class="main"></div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Opening Hours</h3>
+                <p>Monday - Friday: 6am - 10pm</p>
+                <p>Saturday - Sunday: 8am - 8pm</p>
+                <h3>Follow Us</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>123 Fitness St., Muscle City</p>
+                <p>Email: contact@gymsite.com</p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Our gym offers the best fitness equipment and coaching services to help you achieve your fitness
+                    goals.</p>
+                <h3>Links</h3>
+                <a href="index.html">Home</a>
+                <a href="fitnesss.html">Fitness Calculator</a>
+                <a href="about.html">About Us</a>
+                <a href="apply.html">Apply Now</a>
+            </div>
+        </div>
+    </footer>
+    <script src="fitness.js"></script>
+</body>
+
+</html>

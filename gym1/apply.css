@@ -1,0 +1,133 @@
+.nav {
+    height: 300px;
+    width: 100%;
+    border-radius: 40px;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav a {
+    font-weight: 900;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.725);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    float: right;
+}
+
+.nav a:hover {
+    color: white;
+    /* background-color: gray; */
+}
+
+.nav img {
+    border: 1px solid black;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 440px;
+    width: 80px;
+}
+
+.active {
+    background-color: rgba(255, 255, 255, 0.447);
+}
+
+.footer {
+    text-align: center;
+    background-color: #111;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    margin-top: 0;
+}
+
+.footer-section p,
+.footer-section a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+.footer-section a {
+    padding-right: 19px;
+}
+
+.footer-section a:hover {
+    color: #fff;
+}
+
+h1 {
+    font-size: 70px;
+    margin-left: 40%;
+    margin-bottom: -60px;
+    text-decoration: underline;
+}
+
+.content1 {
+    width: 500px;
+    margin: 100px;
+    background-color: rgba(128, 128, 128, 0.448);
+    border-radius: 50px;
+    margin-left: 430px;
+    padding: 50px;
+    padding-left: 100px;
+}
+
+input {
+    padding: 10px;
+    width: 300px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+#Gender {
+    width: 100px;
+    margin: 0px;
+}
+
+#msg {
+    width: 194px;
+    height: 200px;
+}
+
+button {
+    color: white;
+    font-size: 20px;
+    width: 350px;
+    height: 40px;
+    margin: 50px;
+    border-radius: 20px;
+    background-color: gray;
+}
+
+button:hover {
+    color: white;
+    font-weight: bold;
+}
+
+form {
+    font-size: 20px;
+    font-weight: bolder;
+}
